@@ -13,29 +13,35 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">David Walters' Portfolio</a>
-        <!-- The button below will appear when the screen size is small or less (essentially for mobile view ports) -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- The following navbar content will be hidden and displayed when the above button is clicked or when the screen size is above small-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current page)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About-Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+    <header>
+        <div class="logo">
+            <a href="#">David Walters</a>
+            <p class="title">Junior Web Developer</p>
         </div>
-    </nav>
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <!-- The button below will appear when the screen size is small or less (essentially for mobile view ports) -->
+            <button class="navbar-toggler ml-auto mt-2" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- The following navbar content will be hidden and displayed when the above button is clicked or when the screen size is above small-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current page)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About-Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
 
     <!-- jQuery Slim  -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
