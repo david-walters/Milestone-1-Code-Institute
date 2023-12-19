@@ -56,7 +56,7 @@ nav a {
     transition: all ease-in-out 0.15s;
 }
 
-nav a:hover {
+nav a:not(.active):hover {
     transform: scale(1.1);
   }
 
@@ -73,6 +73,7 @@ nav a:hover {
     color: #fafafa !important;
     background-color: #343a40;
     border-radius: 5px;
+    cursor: default;
 }
 
 /* --------------------------------------------------------------- Profile Image */
