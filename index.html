@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <!-- The header simply contains the logo in the top left and the nav items to the right that collapse into a button when sceen width is medium -->
     <header>
         <div class="logo">
             <a href="#">David Walters</a>
@@ -51,40 +52,52 @@
         </nav>
     </header>
 
-    <!-- This is the main section for this page—containg my profile image with a background image, 
-        introduction to who I am, and promps to view about me, contact, and portfolio page -->
+    <!-- This is the main section for this page—containg my profile image with a background, 
+        introduction to who I am, and prompts to view about me, contact, and portfolio page -->
     <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col profile-img-bground pb-5 mb-4 center">
+        <div class="container-fluid gray-background transition-in-center">
+            <div class="row m-0">
+                <div class="col-12 mb-4 center">
                     <div class="profile-img">
                         <span class="sr-only">Profile Image</span>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7 intro mb-5">
-                        <h1>My Ambition</h1>
-                        <p>I am dedicated to pursuing a career in web development, aiming to enhance my skills, expand
-                            my knowledge, and gain substantial experience to become an invaluable asset to a company.
-                        </p>
-                        <hr>
-                        <h2>Discover more about me</h2>
-                        <p>Explore further details about my background and access my curriculum vitae.</p>
-                        <a href="about-me.html" class="btn-danger btn mb-4">About Me</a>
-                        <hr>
-                        <h2>Interested in reaching out?</h2>
-                        <p>Contact me by completing the form provided below to send a message directly.</p>
-                        <a href="contact.html" class="btn-danger btn mb-4">Contact Me</a>
-                        <hr>
-                        <h2>Review my portfolio</h2>
-                        <p>Examine the projects I've undertaken to gauge my expertise and capabilities.</p>
-                        <a href="portfolio.html" class="btn-danger btn mb-4">View Projects</a>
-                    </div>
+            <div class="row m-0">
+                <div class="col-12 center">
+                    <h1 class="text-white text-center">Welcome To My Portfolio</h1>
                 </div>
-
             </div>
+            <div class="row m-0">
+                <div class="col-12 center">
+                    <i class="fas fa-handshake text-white"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Here's a message to state my ambition which is followed by the prompts that take the user to the other pages -->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 intro mt-4 mb-5">
+                    <h2>My Ambition</h2>
+                    <p>I am dedicated to pursuing a career in web development, aiming to enhance my skills, expand
+                        my knowledge, and gain substantial experience to become an invaluable asset to a company.
+                    </p>
+                    <hr>
+                    <h3>Discover more about me</h3>
+                    <p>Explore further details about my background and access my curriculum vitae.</p>
+                    <a href="about-me.html" class="btn-danger btn mb-4">About Me</a>
+                    <hr>
+                    <h3>Interested in reaching out?</h3>
+                    <p>Contact me by completing the form provided below to send a message directly.</p>
+                    <a href="contact.html" class="btn-danger btn mb-4">Contact Me</a>
+                    <hr>
+                    <h3>Review my portfolio</h3>
+                    <p>Examine the projects I've undertaken to gauge my expertise and capabilities.</p>
+                    <a href="portfolio.html" class="btn-danger btn mb-4">View Projects</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer section with 4 social media links -->
@@ -92,7 +105,7 @@
         <div class="container py-4">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h3>Follow me</h3>
+                    <h4>Follow me</h4>
                     <ul class="list-unstyled list-inline social-icons mt-4">
                         <li class="list-inline-item">
                             <a href="https://en-gb.facebook.com/" target="_blank" class="social-icon">
