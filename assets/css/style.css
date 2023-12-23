@@ -21,6 +21,9 @@ hr {
 
 h1 {
   font-family: 'Domine', serif;
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 3px 3px #000;
 }
 
 .center {
@@ -123,16 +126,12 @@ nav a:not(.active):hover {
 .fa-handshake {
   font-size: 3rem;
   margin: 5px 0px;
+  text-shadow: 1px 3px 3px #000;
 }
 
 .intro {
     text-align: center;
     padding: 20px 30px 20px;
-}
-
-.intro h1 {
-  font-size: 2.7rem;
-  margin-bottom: 20px;
 }
 
 .intro h2 {
@@ -151,8 +150,8 @@ nav a:not(.active):hover {
 
 /* --------------------------------------------------------------- About Me page sections */
 
-.my-profile h1 {
-  font-size: 2.7rem;
+.my-profile .list-unstyled {
+  text-shadow: 1px 3px 3px #000; 
 }
 
 .about-intro {
@@ -162,7 +161,6 @@ nav a:not(.active):hover {
 .my-history {
   padding: 40px 0 30px;
   color: #fff;
-  background-color: #343a40;
   margin-bottom: 50px;
 }
 
@@ -173,6 +171,7 @@ nav a:not(.active):hover {
 .my-history h2 {
   font-size: 2.7rem;
   margin-bottom: 22px;
+  text-shadow: 1px 3px 3px #000;
 }
 
 .history-boxes {
@@ -185,6 +184,7 @@ nav a:not(.active):hover {
   margin-bottom: 24px;
   padding-bottom: 10px;
   border-bottom: 3px solid #fff;
+  text-shadow: 1px 3px 3px #000;
 }
 
 .history-lists {
@@ -193,14 +193,13 @@ nav a:not(.active):hover {
 }
 
 .history-lists li {
-  margin-bottom: 8px;
+  margin-bottom: 3px !important;
   line-height: 1.6;
 }
 
 .history-lists li:nth-child(odd) {
   font-size: 1.4rem;
-  font-weight: 800;
-  margin-bottom: 0px;
+  text-shadow: 1px 3px 3px #000;
 }
 
 .history-lists li:nth-child(even) {
@@ -236,12 +235,13 @@ nav a:not(.active):hover {
   }
 
   .social-icons .social-icon:hover {
-    background-color: #ddd;
+    background-color: #e1e1e1;
     transform: scale(1.15);
   }
 
-  footer h3 {
+  footer h4 {
     font-size: 1.4rem;
+    text-shadow: 1px 3px 3px #000;
   }
 
 
