@@ -131,7 +131,7 @@ nav a:not(.active):hover {
 }
 
 .intro h1 {
-  font-size: 1.8rem;
+  font-size: 2.7rem;
   margin-bottom: 20px;
 }
 
@@ -148,6 +148,72 @@ nav a:not(.active):hover {
     font-weight: 500;
     margin-bottom: 20px
 }
+
+/* --------------------------------------------------------------- About Me page sections */
+
+.my-profile h1 {
+  font-size: 2.7rem;
+}
+
+.about-intro {
+  margin: 70px auto;
+}
+
+.my-history {
+  padding: 40px 0 30px;
+  color: #fff;
+  background-color: #343a40;
+  margin-bottom: 50px;
+}
+
+.my-history h2, .my-history h3 {
+  font-weight: 600;
+}
+
+.my-history h2 {
+  font-size: 2.7rem;
+  margin-bottom: 22px;
+}
+
+.history-boxes {
+  padding: 20px;
+  margin-bottom: 20px; 
+}
+
+.history-headings {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #fff;
+}
+
+.history-lists {
+  list-style: none;
+  padding: 0;
+}
+
+.history-lists li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.history-lists li:nth-child(odd) {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.history-lists li:nth-child(even) {
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.fa-graduation-cap,
+.fa-scroll,
+.fa-briefcase {
+  margin-left: 10px;
+}
+
 
 
 /* --------------------------------------------------------------- Footer */

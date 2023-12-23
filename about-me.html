@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <!-- The header simply contains the logo in the top left and the nav items to the right that collapse into a button when screen width is medium -->
     <header>
         <div class="logo">
             <a href="index.html">David Walters</a>
@@ -50,8 +51,10 @@
         </nav>
     </header>
 
+    <!-- Introduction section to the about me page — similar to the index page — A profile image with a title beneath it -->
+
     <section class="my-profile" role="region" aria-labelledby="who-i-am">
-        <div class="container-fluid gray-background transition-in-center mb-5">
+        <div class="container-fluid gray-background transition-in-center">
             <div class="row m-0 text-center">
                 <div class="col-md-12">
                     <img class=" mb-3" height="350px" width="350px" src="assets/images/me-and-pidgeon.jpg"
@@ -60,14 +63,16 @@
                     </h1>
                     <ul class="list-unstyled text-white">
                         <li class="d-inline"><b>Name: </b>David Walters |</li>
-                        <li class="d-inline"><b>Age: </b>30 |</li>
+                        <li class="d-inline"><b>Age: </b>31 |</li>
                         <li class="d-inline"><b>Location: </b>Swansea, UK</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <!-- This part of the about me intro gives a brief insight to where I'm currently at with my coding journey and what my goal is -->
+
+        <div class="container about-intro">
             <div class="row text-center">
                 <div class="col-md-4">
                     <h2>Studies <i class="fas fa-book"></i></h2>
@@ -84,6 +89,71 @@
                     <h2>Progress <i class="fas fa-spinner"></i></h2>
                     <p>I've excelled in HTML and CSS, but my learning journey persists. Currently, I'm focusing on
                         mastering JavaScript and soon diving into backend development for the first time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- history section (details regarding education history, qualifications and work experience) -->
+
+    <section class="my-history" role="region" aria-labelledby="history-title">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 id="history-title">History <i class="fa-solid fa-circle-info"></i></a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center m-0">
+            <div class="col-md-4">
+                <div class="history-boxes">
+                    <h3 class="history-headings">Education<i class="fas fa-graduation-cap"></i></h3>
+                    <ul class="history-lists">
+                        <li><b>Code Institute</b></li>
+                        <li>2023 - Present</li>
+                        <li><b>The Learning People</b></li>
+                        <li>2022 - 2023</li>
+                        <li><b>Coleg Sir Gar, Ammanford</b></li>
+                        <li>2016 - 2017</li>
+                        <li><b>Coleg Sir Gar, Llanelli</b></li>
+                        <li>2011 - 2014</li>
+                        <li><b>Amman Valley Comprehensive</b></li>
+                        <li>2004 - 2009</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="history-boxes rounded">
+                    <h3 class="history-headings">Qualifications<i class="fas fa-scroll"></i></h3>
+                    <ul class="history-lists">
+                        <li><b>The Learning People</b></li>
+                        <li>Certificate in Front-End Development</li>
+                        <li><b>Coleg Sir Gar, Llanelli</b></li>
+                        <li>Level 3 Diploma - Music Technology <br>
+                            Level 2 Diploma - Music Technology</li>
+                        <li><b>Coleg Sir Gar, Ammanford</b></li>
+                        <li>Level 2 Diploma - Plumbing Studies <br>
+                            Level 2 Essential Skills - Communication <br>
+                            Level 2 Essential Skills - Application of Number <br>
+                            National Post-16 Welsh Baccalaureate <br>
+                            National Post-16 Skills Challenge <br></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="history-boxes rounded">
+                    <h3 class="history-headings">Work<i class="fas fa-briefcase"></i></h3>
+                    <ul class="history-lists">
+                        <li><b>Boxing and Personal Fitness Coach</b></li>
+                        <li>2022 - Present</li>
+                        <li><b>Amazon Warehouse Associate</b></li>
+                        <li>2019 - Present</li>
+                        <li><b>Support Care Worker (Vulnerable Children)</b></li>
+                        <li>2018 - 2019</li>
+                        <li><b>Private Arabic Tutor</b></li>
+                        <li>2017 - 2023</li>
+                    </ul>
                 </div>
             </div>
         </div>
