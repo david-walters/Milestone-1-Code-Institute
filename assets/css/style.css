@@ -20,7 +20,6 @@ hr {
 }
 
 h1 {
-  font-family: 'Domine', serif;
   font-size: 2.7rem;
   margin-bottom: 10px;
   text-shadow: 1px 3px 3px #000;
@@ -119,6 +118,7 @@ nav a:not(.active):hover {
   height: auto;
   width: 100%;
   max-width: 350px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* --------------------------------------------------------------- Main page introduction */
@@ -209,8 +209,40 @@ nav a:not(.active):hover {
 
 .fa-graduation-cap,
 .fa-scroll,
-.fa-briefcase {
+.fa-briefcase,
+.fa-scroll,
+.fa-gamepad,
+.fa-chalkboard-user
+ {
   margin-left: 10px;
+}
+
+.my-interests {
+  margin-bottom: 50px;
+}
+
+.my-interests h2, .my-interests h3 {
+  font-weight: 600;
+}
+
+.my-interests h2 {
+  font-size: 2.7rem;
+  margin-bottom: 30px;
+}
+
+.my-interests h3 {
+  margin-top: 15px;
+}
+
+.interests-headings {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.hobbies-list li {
+  margin-bottom: 7px !important;
+  line-height: 1.6;
 }
 
 
