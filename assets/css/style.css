@@ -75,10 +75,12 @@ nav a {
     font-size: 1.3rem;
     font-weight: 500;
     transition: all ease-in-out 0.15s;
+    color: #343a40 !important;
 }
 
 nav a:not(.active):hover {
-    transform: scale(1.1);
+    transform: scale(1.12);
+    color: #555 !important;
   }
 
 .navbar-light .navbar-toggler {
@@ -350,6 +352,7 @@ input[type="checkbox"] {
 
     .active {
         background-color: transparent;
+        text-decoration: underline;
         color: rgb(0, 0, 0) !important;
         padding: 0;
         margin: 0;
