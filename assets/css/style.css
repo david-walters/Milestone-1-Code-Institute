@@ -1,5 +1,3 @@
-/* --------------------------------------------------------------- Google fonts and weights */
-
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Figtree:wght@300;400;500;600&family=Merriweather+Sans:ital,wght@0,400;0,500;1,500&display=swap');
 
 /* --------------------------------------------------------------- General CSS */
@@ -28,6 +26,14 @@ h1 {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.btn-danger {
+  transition: all ease-in-out 0.2s;
+}
+
+.btn-danger:hover {
+  transform: scale(1.1);
 }
 
 /* --------------------------------------------------------------- Header */
@@ -261,7 +267,48 @@ nav a:not(.active):hover {
   text-shadow: 1px 3px 3px #000;
 }
 
+/* --------------------------------------------------------------- Contact me page */
 
+.form-section {
+  margin: 30px 0px 50px;
+}
+
+.form-section h1 {
+  font-size: 2rem;
+}
+
+.card {
+  background-color: #343a40;
+  border: 3px solid #fafafa;
+  box-shadow: #343a40 0px 0px 0px 10px;
+}
+
+label {
+  text-shadow: 1px 3px 3px #000;
+  font-size: 1.2rem;
+}
+
+input, textarea {
+  font-size: 1rem;
+  line-height: 20px;
+  color: #000;
+  margin-top: 10px;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  cursor: pointer;
+}
 
 /* --------------------------------------------------------------- Footer */
 
@@ -287,9 +334,9 @@ nav a:not(.active):hover {
     transform: scale(1.15);
   }
 
-  footer h4 {
+  footer p {
     font-size: 1.4rem;
-    text-shadow: 1px 3px 3px #000;
+    font-weight: 600;
   }
 
 
@@ -330,6 +377,13 @@ nav a:not(.active):hover {
 
       nav a {
         font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    
+    button[type="submit"] {
+      margin: 20px auto 0px;
     }
   }
 
