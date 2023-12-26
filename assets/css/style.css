@@ -2,6 +2,11 @@
 
 /* --------------------------------------------------------------- General CSS */
 
+:root {
+  --theme-color1: #002c55;
+  --theme-color2: #cf2020;
+}
+
 body {
     font-family: 'Figtree', sans-serif;
     font-size: 1.1rem;
@@ -29,6 +34,7 @@ h1 {
 }
 
 .btn-danger {
+  background-color: var(--theme-color2);
   transition: all ease-in-out 0.2s;
 }
 
@@ -79,12 +85,12 @@ nav a {
     font-size: 1.3rem;
     font-weight: 500;
     transition: all ease-in-out 0.15s;
-    color: #343a40 !important;
+    color: #000 !important;
 }
 
 nav a:not(.active):hover {
     transform: scale(1.12);
-    color: #555 !important;
+    color: var(--theme-color2) !important;
   }
 
 .navbar-light .navbar-toggler {
@@ -98,7 +104,7 @@ nav a:not(.active):hover {
     padding: 2px 0px 5px;
     margin: 5px 5px 0;
     color: #fafafa !important;
-    background-color: #343a40;
+    background-color: var(--theme-color1);
     border-radius: 5px;
     cursor: default;
 }
@@ -106,11 +112,11 @@ nav a:not(.active):hover {
 /* --------------------------------------------------------------- Images and backgrounds */
 
 .gray-background {
-  background-color: #343a40;
+  background-color: var(--theme-color1);
   padding: 50px 0px 30px;
   border-top: 3px solid #fafafa;
   border-bottom: 3px solid #fafafa;
-  box-shadow: #343a40 0px 0px 0px 10px;
+  box-shadow: var(--theme-color1) 0px 0px 0px 10px;
 }
 
 .profile-img {
@@ -269,7 +275,7 @@ nav a:not(.active):hover {
 
 .fa-file-arrow-down:hover {
   transform: scale(1.3);
-  color: #bdbdbd;
+  color: var(--theme-color2);
 }
 
 .gray-background h4 {
@@ -287,9 +293,9 @@ nav a:not(.active):hover {
 }
 
 .card {
-  background-color: #343a40;
+  background-color: var(--theme-color1);
   border: 3px solid #fafafa;
-  box-shadow: #343a40 0px 0px 0px 10px;
+  box-shadow: var(--theme-color1) 0px 0px 0px 10px;
 }
 
 label {
@@ -354,7 +360,7 @@ input[type="checkbox"] {
 
 .portfolio-section .fa-github:hover {
   transform: scale(1.15);
-  color: #c6c6c6;
+  color: var(--theme-color2);
 }
 
 .portfolio-card {
@@ -401,18 +407,19 @@ input[type="checkbox"] {
 
   .social-icons .social-icon i {
     font-size: 25px;
-    color: #555;
+    color: var(--theme-color1);
   }
 
   .social-icons .social-icon:hover {
-    background-color: #e1e1e1;
+    background-color: var(--theme-color2);
     transform: scale(1.15);
   }
 
   footer {
+    color: #fafafa;
+    background-color: var(--theme-color1);
     border-top: 3px solid #fafafa;
-    border-bottom: 3px solid #fafafa;
-    box-shadow: #343a40 0px 0px 0px 10px;
+    box-shadow: var(--theme-color1) 0px 0px 0px 10px;
   }
 
   footer p {
