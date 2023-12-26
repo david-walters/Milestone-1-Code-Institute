@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Font Awesome Link  -->
+    <script src="https://kit.fontawesome.com/66870db2b4.js" crossorigin="anonymous"></script>
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>David Walters — Online CV</title>
+    <meta name="description" content="Welcome to David Walters' online portfolio, a showcase of expertise in web development, 
+        JavaScript, HTML, CSS, Python, and Django. Explore a collection of innovative projects highlighting 
+        proficiency in front-end and back-end technologies. As a skilled developer passionate about crafting 
+        dynamic and responsive web solutions, I strive to be the best I can be. 
+        For employers seeking a dedicated and versatile web developer adept in modern frameworks and languages, 
+        let's connect and elevate your digital initiatives together.">
+</head>
+
+<body id="footer-fix">
+    <header>
+        <div class="logo">
+            <a href="index.html">David Walters</a>
+            <p class="title">Junior Web Developer</p>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <!-- The button below will appear when the screen size is medium or less (for mobile view ports and small tablet) -->
+            <button class="navbar-toggler ml-auto mt-2" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- The following navbar content will be hidden and displayed when the above button is clicked or when the screen size is above small-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="portfolio-section">
+        <div class="container">
+            <!-- Portfolio heading and text -->
+            <div class="card text-white my-5">
+                <div class="row">
+                    <div class="col-12 center mt-3">
+                        <h1>Portfolio</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-5 lead">
+                            <h2 class="text-center">
+                                This portfolio was established whilst studying Web Development
+                                with 'Code Institute'.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The rest of the code here will contain the portfolio cards in one row, medium screen will have two rows, and small will have four in a column -->
+
+            <div class="row text-center">
+                <!-- First portfolio card containing the first project -->
+                <div class="col-12 col-md-6 col-lg-3 transition-in-left">
+                    <div class="card portfolio-card">
+                        <a href="about-me.html" target="_blank"><img src="assets/images/milestone-1.webp"
+                                class=" card-img" alt="Milestone Project One"></a>
+                        <div class="accordion" id="accordion1">
+                            <div id="heading1">
+                                <!-- Button for accordion one -->
+                                <h3 class="mt-2">
+                                    <button class="btn btn-danger btn-block" type="button" data-toggle="collapse"
+                                        id="btn-1" data-target="#collapse1" aria-expanded="true"
+                                        aria-controls="collapse1">
+                                        Milestone Project 1<span class="float-right arrow-one"><i
+                                                class="fas fa-angle-double-down animate-arrow"
+                                                aria-hidden="true"></i></span>
+                                    </button>
+                                </h3>
+                                <!-- accordion one -->
+                                <div id="collapse1" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordion1">
+                                    <div class="card-body">
+                                        <h4>My Online CV</h4>
+                                        <p>All of what you have seen is my first project - including this page.</p>
+                                        <p>Through this I significantly learned HTML, CSS, Bootstrap, and Git.</p>
+                                        <h4 class="pb-1">GitHub Repository</h4>
+                                        <a class="fab fa-github"
+                                            href="https://github.com/david-walters/Milestone-1-Code-Institute"
+                                            target="_blank" aria-hidden="true"><span class="sr-only">Github repository
+                                                for milestone one</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second portfolio card containing the second project -->
+                <div class="col-12 col-md-6 col-lg-3 transition-in-bottom">
+                    <div class="card portfolio-card">
+                        <a href="#" target="_blank"><img src="assets/images/question-mark.webp"
+                                class="card-img-top card-img" alt="Milestone Project Two"></a>
+                        <div class="accordion" id="accordion2">
+                            <div id="heading2">
+                                <!-- Button for accordion two -->
+                                <h3 class="mt-2">
+                                    <button class="btn btn-danger btn-block" type="button" data-toggle="collapse"
+                                        id="btn-2" data-target="#collapse2" aria-expanded="true"
+                                        aria-controls="collapse2">
+                                        Milestone Project 2<span class="float-right arrow-two"><i
+                                                class="fas fa-angle-double-down animate-arrow"
+                                                aria-hidden="true"></i></span>
+                                    </button>
+                                </h3>
+                                <!-- accordion two -->
+                                <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                                    data-parent="#accordion2">
+                                    <div class="card-body">
+                                        <h4 class="coming-soon">Coming Soon!</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third portfolio card containing the third project -->
+                <div class="col-12 col-md-6 col-lg-3 transition-in-bottom">
+                    <div class="card portfolio-card">
+                        <a href="#" target="_blank"><img src="assets/images/question-mark.webp"
+                                class="card-img-top card-img" alt="Milestone Project Three"></a>
+                        <div class="accordion" id="accordion3">
+                            <div id="heading3">
+                                <!-- Button for accordion three -->
+                                <h3 class="mt-2">
+                                    <button class="btn btn-danger btn-block" type="button" data-toggle="collapse"
+                                        id="btn-3" data-target="#collapse3" aria-expanded="true"
+                                        aria-controls="collapse3">
+                                        Milestone Project 3<span class="float-right arrow-three"><i
+                                                class="fas fa-angle-double-down animate-arrow"
+                                                aria-hidden="true"></i></span>
+                                    </button>
+                                </h3>
+                                <!-- accordion three -->
+                                <div id="collapse3" class="collapse" aria-labelledby="heading3"
+                                    data-parent="#accordion3">
+                                    <div class="card-body">
+                                        <h4 class="coming-soon">Coming Soon!</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fourth portfolio card containing the fourth project -->
+                <div class="col-12 col-md-6 col-lg-3 transition-in-right">
+                    <div class="card portfolio-card">
+                        <a href="#" target="_blank"><img src="assets/images/question-mark.webp"
+                                class="card-img-top card-img" alt="Milestone Project Four"></a>
+                        <div class="accordion" id="accordion4">
+                            <div id="heading4">
+                                <!-- Button for accordion four -->
+                                <h3 class="mt-2">
+                                    <button class="btn btn-danger btn-block" type="button" data-toggle="collapse"
+                                        id="btn-4" data-target="#collapse4" aria-expanded="true"
+                                        aria-controls="collapse4">
+                                        Milestone Project 4<span class="float-right arrow-four"><i
+                                                class="fas fa-angle-double-down animate-arrow"
+                                                aria-hidden="true"></i></span>
+                                    </button>
+                                </h3>
+                                <!-- accordion four -->
+                                <div id="collapse4" class="collapse" aria-labelledby="heading4"
+                                    data-parent="#accordion4">
+                                    <div class="card-body">
+                                        <h4 class="coming-soon">Coming Soon!</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer section with 4 social media links -->
+    <footer class="bg-dark text-light">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>Follow me</p>
+                    <ul class="list-unstyled list-inline social-icons mt-4">
+                        <li class="list-inline-item">
+                            <a href="https://en-gb.facebook.com/" target="_blank" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                                <span class="sr-only">Facebook login page</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/?lang=en" target="_blank" class="social-icon">
+                                <i class="fab fa-square-x-twitter"></i>
+                                <span class="sr-only">Twitter login page</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/david-walters" target="_blank" class="social-icon">
+                                <i class=" fab fa-github"></i>
+                                <span class="sr-only">My Github page</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/feed/" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span class="sr-only">My linkedin profile</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Slim  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
