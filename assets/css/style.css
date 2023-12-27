@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Figtree:wght@300;400;500;600&family=Merriweather+Sans:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=IBM+Plex+Serif:wght@600&family=Milonga&display=swap');
 
 /* --------------------------------------------------------------- General CSS */
 
@@ -8,18 +8,18 @@
 }
 
 body {
-    font-family: 'Figtree', sans-serif;
-    font-size: 1.1rem;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f2ee;
+  font-family: 'Figtree', serif;
+  font-size: 1.1rem;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f2ee;
 }
 
 hr {
-    border: none;
-    height: 2px;
-    background-color: #3333337c;
-    margin: 20px 0 30px 0;
+  border: none;
+  height: 2px;
+  background-color: #3333337c;
+  margin: 20px 0 30px 0;
 }
 
 h1 {
@@ -45,47 +45,46 @@ h1 {
 /* --------------------------------------------------------------- Header */
 
 header {
-    position: relative;
-    padding-bottom: 10px;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .logo {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    z-index: 1000;
+  top: 5px;
+  left: 20px;
+  z-index: 1000;
+  position: absolute;
 }
 
 .logo a {
-    font-family: 'Domine', serif;
-    font-size: 2rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    padding-bottom: 0;
-    text-shadow: 1px 2px 0px rgb(190 190 190);
-}
-
-.logo p {
-  cursor: default;
+  font-family: 'IBM Plex Serif', serif;  
+  font-size: 1.9rem;
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0;
+  text-shadow: 1px 2px 0px rgb(190 190 190);
+  font-weight: 500;
 }
 
 .title {
-    font-size: 1rem;
-    font-weight: 400;
-    padding-left: 2px;
-    line-height: 0;
+  font-style: italic;
+  font-family: 'Milonga', sans-serif;
+  cursor: default;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 2px;
+  line-height: 8px;
 }
 
 nav a {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 500;
-    transition: all ease-in-out 0.15s;
-    color: #000 !important;
+  font-weight: 500;
+  font-size: 1.3rem;
+  transition: all ease-in-out 0.15s;
+  color: #000 !important;
 }
 
 nav a:not(.active):hover {
@@ -94,19 +93,19 @@ nav a:not(.active):hover {
   }
 
 .navbar-light .navbar-toggler {
-    color: rgb(0 0 0);
-    border-color: rgb(0 0 0);
-    font-size: 1rem;
-    background-color: #f1f1f1;
+  color: rgb(0 0 0);
+  border-color: rgb(0 0 0);
+  font-size: 1rem;
+  background-color: #f1f1f1;
 }
 
 .active {
-    padding: 2px 0px 5px;
-    margin: 5px 5px 0;
-    color: #fafafa !important;
-    background-color: var(--theme-color1);
-    border-radius: 5px;
-    cursor: default;
+  padding: 2px 0px 5px;
+  margin: 5px 5px 0;
+  color: #fafafa !important;
+  background-color: var(--theme-color1);
+  border-radius: 5px;
+  cursor: default;
 }
 
 /* --------------------------------------------------------------- Images and backgrounds */
@@ -151,22 +150,22 @@ nav a:not(.active):hover {
 }
 
 .intro {
-    text-align: center;
-    padding: 20px 30px 20px;
+  text-align: center;
+  padding: 20px 30px 20px;
 }
 
 .intro h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .intro h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .intro p {
-    font-weight: 500;
-    margin-bottom: 20px
+  font-weight: 500;
+  margin-bottom: 20px
 }
 
 /* --------------------------------------------------------------- About Me page sections */
@@ -233,7 +232,8 @@ nav a:not(.active):hover {
 .fa-briefcase,
 .fa-scroll,
 .fa-gamepad,
-.fa-chalkboard-user
+.fa-chalkboard-user,
+.fa-user-astronaut
  {
   margin-left: 10px;
 }
@@ -393,40 +393,40 @@ input[type="checkbox"] {
 }
 /* --------------------------------------------------------------- Footer */
 
-  .social-icons .social-icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 47px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: #fff;
-    margin: 0 5px;
-    transition: all ease-in-out 0.15s;
-  }
+.social-icons .social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 47px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+  transition: all ease-in-out 0.15s;
+}
 
-  .social-icons .social-icon i {
-    font-size: 25px;
-    color: var(--theme-color1);
-  }
+.social-icons .social-icon i {
+  font-size: 25px;
+  color: var(--theme-color1);
+}
 
-  .social-icons .social-icon:hover {
-    background-color: var(--theme-color2);
-    transform: scale(1.15);
-  }
+.social-icons .social-icon:hover {
+  background-color: var(--theme-color2);
+  transform: scale(1.15);
+}
 
-  footer {
-    color: #fafafa;
-    background-color: var(--theme-color1);
-    border-top: 3px solid #fafafa;
-    box-shadow: var(--theme-color1) 0px 0px 0px 10px;
+footer {
+  color: #fafafa;
+  background-color: var(--theme-color1);
+  border-top: 3px solid #fafafa;
+  box-shadow: var(--theme-color1) 0px 0px 0px 10px;
   }
-
-  footer p {
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
-
+  
+footer p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+  
 
 
 /* --------------------------------------------------------------- Media Queries */
