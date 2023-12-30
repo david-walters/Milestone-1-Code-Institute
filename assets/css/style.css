@@ -93,10 +93,9 @@ nav a:not(.active):hover {
   }
 
 .navbar-light .navbar-toggler {
-  color: rgb(0 0 0);
   border-color: rgb(0 0 0);
   font-size: 1rem;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 
 .active {
@@ -491,70 +490,60 @@ footer p {
 
   @keyframes transitionInCenter {
     from {
-      opacity: 0;
+        opacity: 0;
     }
     to {
-      opacity: 1;
+        opacity: 1;
     }
   }
-
-  .transition-in-center {
-    -webkit-animation: transitionInCenter 1.5s;
-    animation: transitionInCenter 1.5s;
-  }
-  
 
   @keyframes transitionInLeft {
     from {
         opacity: 0;
-        -webkit-transform: translateX(-200px);
-                transform: translateX(-200px);
+        transform: translateX(-200px);
     }
     to {
         opacity: 1;
-        -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
   }
 
   @keyframes transitionInBottom {
     from {
         opacity: 0;
-        -webkit-transform: translateY(200px);
-                transform: translateY(200px);
+        transform: translateY(200px);
     }
     to {
         opacity: 1;
-        -webkit-transform: translateY(0px);
-                transform: translateY(0px);
+        transform: translateY(0px);
     }
   }
 
   @keyframes transitionInRight {
     from {
         opacity: 0;
-        -webkit-transform: translateX(200px);
-                transform: translateX(200px);
+        transform: translateX(200px);
     }
     to {
         opacity: 1;
-        -webkit-transform: translateY(0px);
-                transform: translateY(0px);
+        transform: translateY(0px);
     }
   }
 
   .transition-in-left {
-    -webkit-animation: transitionInLeft 2s;
-            animation: transitionInLeft 2s;
+    animation: transitionInLeft 2s;
   }
   
   
   .transition-in-bottom {
-    -webkit-animation: transitionInBottom 2s;
-            animation: transitionInBottom 2s;
+    animation: transitionInBottom 2s;
   }
   
   .transition-in-right {
-    -webkit-animation: transitionInRight 2s;
-            animation: transitionInRight 2s;
+    animation: transitionInRight 2s;
+  }
+
+  
+  .transition-in-center {
+    animation: transitionInCenter 1.5s;
   }
