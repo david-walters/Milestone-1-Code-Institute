@@ -3,40 +3,47 @@
 This is a website that I created which is my first assignment with Code Institute. The tasks of my assignment were the following;
 
 > Project Requirements:
-
+>
 > Main Technologies
 > Required: HTML, CSS
 > Optional: Bootstrap and/or other CSS libraries/frameworks.
-
+>
 > Mandatory Requirements:
-
+>
 > A project violating any of these requirements will FAIL
-
-> Static front end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
-> Information Architecture: Incorporate a main navigation menu and structured layout (you might want to use Bootstrap to accomplish this).
-> Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+>
+> Static front end project:
+> Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
+>
+> Information Architecture:
+> Incorporate a main navigation menu and structured layout (you might want to use Bootstrap to accomplish this).
+>
+> Documentation:
+> Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+>
 > Version Control: Use Git & GitHub for version control.
+>
 > Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+>
 > Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
 
 Code Institute provided a list of example ideas for the project and I chose the following one they provided:
 
 > Project Example Idea:
 > Build a personal portfolio site (potentially for yourself).
-
+>
 > External user’s goal:
 > The site's users are recruiters considering to hire the applicant.
-
+>
 > Site owner's goal:
 > Present self in best light and get hired.
-
+>
 > Potential features to include:
-> Tell about educational history and work experience.
-
-> Tell about skills and any other relevant competencies and interests.
-
-> Provide basic personal information and contact information for recruiters.
-
+>
+> - Tell about educational history and work experience.
+> - Tell about skills and any other relevant competencies and interests.
+> - Provide basic personal information and contact information for recruiters.
+>
 > Advanced potential feature (nice-to-have):
 > Showcase portfolio of projects so far (in-lieu of links to real projects that you'd build later, feel free to include links to fake projects or random sites on the internet at this stage)
 
@@ -173,21 +180,21 @@ It highlighted to me unnecessary characters in the code and isolated tags which 
 
 ## Wireframes
 
-### Wire Frame 1 — Home Page
+### Wireframe 1 — Home Page
 
-![Wire Frame 1](assets/images/wire-frames/wire-frame-1.PNG)
+![Wireframe 1](assets/images/wire-frames/wire-frame-1.PNG)
 
-### Wire Frame 2 — About Me Page
+### Wireframe 2 — About Me Page
 
-![Wire Frame 2](assets/images/wire-frames/wire-frame-2.PNG)
+![Wireframe 2](assets/images/wire-frames/wire-frame-2.PNG)
 
-### Wire Frame 3 — Contact Page
+### Wireframe 3 — Contact Page
 
-![Wire Frame 3](assets/images/wire-frames/wire-frame-3.PNG)
+![Wireframe 3](assets/images/wire-frames/wire-frame-3.PNG)
 
-### Wire Frame 4 — Portfolio Page
+### Wireframe 4 — Portfolio Page
 
-![Wire Frame 4](assets/images/wire-frames/wire-frame-4.PNG)
+![Wireframe 4](assets/images/wire-frames/wire-frame-4.PNG)
 
 ## Interesting Issues Through Developing
 
@@ -227,9 +234,11 @@ In the file path, I accidentally named the images folder with a capital 'I'. VS 
   - The project uses **jQuery** to simplify DOM manipulation. This is the standard jQuery that is built with Bootstrap components.
 - [**JavaScript**](https://www.javascript.com/)
   - The project uses **JavaScript** from Bootstrap which is required to add functionality to some of Bootstrap's components.
+- [**Figma Wireframes**](https://www.figma.com/)
+  - Using **Figma Wireframes** is very beneficial to guage what you will add and where you will put them on your pages, and it gives you a good visual to see if you missed anything or should add anything.
 - [**Font Awesome**](https://fontawesome.com/)
   - The project uses **Font Awesome** for the social media links and various other icons for several headers and titles in my website.
-  - [**Google Fonts**](https://fonts.google.com/)
+- [**Google Fonts**](https://fonts.google.com/)
   - Having access to **Google Fonts** helped enhance the typography and design of my website by easily integrating and customizing high-quality fonts, thereby improving readability and visual appeal.
 - [**Visual Studio Code**](https://code.visualstudio.com/)
   - I've used **Visual Studio Code** as the development environment to write the code for my website.
