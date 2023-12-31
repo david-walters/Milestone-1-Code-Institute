@@ -173,6 +173,22 @@ It highlighted to me unnecessary characters in the code and isolated tags which 
 
 ## Wireframes
 
+### Wire Frame 1 — Home Page
+
+![Wire Frame 1](assets/images/wire-frames/wire-frame-1.PNG)
+
+### Wire Frame 2 — About Me Page
+
+![Wire Frame 2](assets/images/wire-frames/wire-frame-2.PNG)
+
+### Wire Frame 3 — Contact Page
+
+![Wire Frame 3](assets/images/wire-frames/wire-frame-3.PNG)
+
+### Wire Frame 4 — Portfolio Page
+
+![Wire Frame 4](assets/images/wire-frames/wire-frame-4.PNG)
+
 ## Interesting Issues Through Developing
 
 ### Placement Of The Logo
