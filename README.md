@@ -52,7 +52,7 @@ Code Institute provided a list of example ideas for the project and I chose the 
 I took to the internet to find some portfolio examples which would give me some inspiration for design ideas.
 Doing this gave me an insight of what I wanted for my portfolio and an understanding of how to begin.
 
-I concluded what pages I would have, their layout, information, and how to navigate effeciently through them.
+I concluded what pages I would have, their layout, information, and how to navigate efficiently through them.
 
 I used some course materials to learn basic coding with HTML and CSS and a few Youtube videos on how to understand and work with Bootstrap.
 
@@ -62,7 +62,7 @@ I kickstarted my project off with the home page.
 
 I wanted the home page to be very simple and welcoming — a clear display of the header containing a logo and nav items, image of me, and a welcome message. That's basically what first appears upon the initial screen load.
 
-Scrolling slightly down, A heading titled "Ambition" briefly explaining my desire to be a web developer, which then descends into three smaller headings; 'Discover more about me', 'Interested in reaching out?', and 'Review my projects'. These are each accomponied by a small paragraph respective to the heading to prompt the user to click the red button beneath each paragraph which takes the user to the relevant page.
+Scrolling slightly down, A heading titled "Ambition" briefly explaining my desire to be a web developer, which then descends into three smaller headings; 'Discover more about me', 'Interested in reaching out?', and 'Review my projects'. These are each accompanied by a small paragraph respective to the heading to prompt the user to click the red button beneath each paragraph which takes the user to the relevant page.
 
 The home page serves as an introduction to myself with some prompts to navigate through the rest of the project.
 
@@ -130,11 +130,11 @@ At the very bottom of the page there is a heading 'Download my CV' which has an 
 
 This page is intended for employers to contact me via email whilst keeping my contact details undisclosed.
 
-The user is able to put their first and last name, their email address for me to get back to them, and the message they want to send to me. Additionally, the user must tick the ckeckbox that is labeled 'not a robot'. All the information the user provides will be sent to me via email after they have gone through a quick verification process to protect me from spam. This is all done using **formspree**.
+The user is able to put their first and last name, their email address for me to get back to them, and the message they want to send to me. Additionally, the user must tick the checkbox that is labeled 'not a robot'. All the information the user provides will be sent to me via email after they have gone through a quick verification process to protect me from spam. This is all done using **formspree**.
 
 Formspree acts like the middle-man when sending emails. Once you have made an account on ***https://formspree.io/***, you will be given a code to put into your `<form>` tag which will allow you to receive emails without disclosing your email address. It also saves you from having to do any JavaScript as it is all done for you.
 
-My wife tested the contact form by filling it out and ckicking the send button. It came as an email from formspree with the First name, Last Name, the email address, and confirmation that they ticked the checkbox along with their message. This allows me to respond to their given email address and it also allows me to block the user if need be.
+My wife tested the contact form by filling it out and clicking the send button. It came as an email from formspree with the First name, Last Name, the email address, and confirmation that they ticked the checkbox along with their message. This allows me to respond to their given email address and it also allows me to block the user if need be.
 
 I felt initially that the form was too plain and had too much white space either side and wasn't very eye-catching. I had an idea to make the background navy blue, use a white border, and use box shadow but made the box shadow the same navy colour and made it solid which made the border appear to be on the inside. This gave birth to my theme and I applied this style to the section background, image container background, and the footer and the portfolio cards.
 
@@ -214,7 +214,7 @@ Using bootstrap's classes `m-0` and `p-0` (to remove all margins and padding), I
 
 ### Image Not Appearing
 
-As I work on my project, I regularly check the code in the Google browser (as one should). Everything was fine, no issues at all. I commited and pushed all my work onto Github and then checked it out live to do a performance check. It turns out, my image was not showing at all...
+As I work on my project, I regularly check the code in the Google browser (as one should). Everything was fine, no issues at all. I committed and pushed all my work onto Github and then checked it out live to do a performance check. It turns out, my image was not showing at all...
 
 It was working from my local environment but not from Github's environment. It didn't take long to realise why.
 
@@ -281,7 +281,7 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 
 ## Personal Overview
 
-From the beginning to the end of this assignment, it has been an enjoyable process for me. I came across many hurdles that I overcame through perserverance, problem solving, and research — all of which went in my favour.
+From the beginning to the end of this assignment, it has been an enjoyable process for me. I came across many hurdles that I overcame through perseverance, problem solving, and research — all of which went in my favour.
 
 I have much more to learn, more experience to gain, and I can imagine that I will look back at this website one day and think "What on earth was I thinking" :joy:
 
