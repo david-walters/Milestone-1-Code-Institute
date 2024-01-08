@@ -36,7 +36,7 @@ There's no better way to advertise yourself to employers than showcasing your sk
 
 - [Technologies Used](#technologies-used)
 
-- [Deployment & Local Development](#deployment--local-development)
+- [Deployment & Local Development](#deployment-&-local-development)
 
   - [Deployment](#deployment)
   - [Local Development](#local-development)
@@ -47,7 +47,7 @@ There's no better way to advertise yourself to employers than showcasing your sk
   - [Solved Bugs](#solved-bugs)
 - [Credits](#credits)
   - [Code Used](#code-used)
-  - [Acknowledgments](#acknowledgments)
+  - [Personal Overview](#personal-overview)
 
 ---
 
