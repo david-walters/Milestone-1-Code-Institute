@@ -218,7 +218,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - Choosing a sans serif type font for the site - these fonts are suitable for people with dyslexia.
 - Ensuring that there is a sufficient colour contrast throughout the site.
 
-![Accessible Buttons](assets/images/readme-images/accessible-btn.PNG) ![Accessible Linkedin](assets/images/readme-images/accessible-linkedin.PNG) ![Accessible Nav Links](assets/images/readme-images/accessible-nav.PNG) ![accessible inputs](assets/images/readme-images/accessible-input.PNG.png)
+![Accessible Buttons](assets/images/readme-images/accessible-btn.PNG) ![Accessible Linkedin](assets/images/readme-images/accessible-linkedin.PNG) ![Accessible Nav Links](assets/images/readme-images/accessible-nav.PNG) ![accessible inputs](assets/images/readme-images/accessible-input.PNG)
 
 For the contact form I used the `label` tag and the attribute `aria label`. This makes it easier for users, especially those with motor impairments or those who might have difficulty clicking on small targets, to interact with form fields.
 
