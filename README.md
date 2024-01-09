@@ -84,7 +84,12 @@ As I wanted the website to be a professional display of my CV and showcase my wo
 
 In my css file, I have used variables to declare these two theme colours, and then used these throughout the css file. It is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour by changing the colour once in the variable.
 
-![Theme colors](assets/images/readme-images/theme-colors.PNG)
+```css
+:root {
+  --theme-color1: #002c55;
+  --theme-color2: #cf2020;
+}
+```
 
 - I have used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text.
 - I have used `#002c55` (theme color 1) for background colours, project cards, contact form, and the active class in nav items.
@@ -118,8 +123,11 @@ As the website is about presenting myself to employers, I have used an image of 
 Wireframes were created using Figma.
 
 ![Home Page](assets/images/wire-frames/wire-frame-1.PNG)
+
 ![About Me Page](assets/images/wire-frames/wire-frame-2.PNG)
+
 ![Contact Page](assets/images/wire-frames/wire-frame-3.PNG)
+
 ![Portfolio Page](assets/images/wire-frames/wire-frame-4.PNG)
 
 ### Features
@@ -133,6 +141,7 @@ All Pages on the website are responsive and have:
   ![favicon](assets/favicon/android-chrome-192x192.png)
 
 - A logo in the top left. This logo also acts as a link back to the home page.
+
   ![Logo](assets/images/readme-images/logo.PNG)
 
 - A footer with social media links (Linkedin and Github take the user to my genuine profiles in a new tab. The other two are for show and will take the user to the login page in a new tab.)
@@ -218,7 +227,9 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - Choosing a sans serif type font for the site - these fonts are suitable for people with dyslexia.
 - Ensuring that there is a sufficient colour contrast throughout the site.
 
-![Accessible Buttons](assets/images/readme-images/accessible-btn.PNG) ![Accessible Linkedin](assets/images/readme-images/accessible-linkedin.PNG) ![Accessible Nav Links](assets/images/readme-images/accessible-nav.PNG) ![accessible inputs](assets/images/readme-images/accessible-input.PNG)
+![Accessible Buttons](assets/images/readme-images/accessible-btn.PNG) ![Accessible Linkedin](assets/images/readme-images/accessible-linkedin.PNG)
+
+![Accessible Nav Links](assets/images/readme-images/accessible-nav.PNG) ![accessible inputs](assets/images/readme-images/accessible-input.PNG)
 
 For the contact form I used the `label` tag and the attribute `aria label`. This makes it easier for users, especially those with motor impairments or those who might have difficulty clicking on small targets, to interact with form fields.
 
