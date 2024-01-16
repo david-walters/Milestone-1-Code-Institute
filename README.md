@@ -122,13 +122,13 @@ As the website is about presenting myself to employers, I have used an image of 
 
 Wireframes were created using Figma.
 
-![Home Page](assets/images/wire-frames/wire-frame-1.png)
+![Home Page](assets/images/wire-frames/wire-frame-1.PNG)
 
-![About Me Page](assets/images/wire-frames/wire-frame-2.png)
+![About Me Page](assets/images/wire-frames/wire-frame-2.PNG)
 
-![Contact Page](assets/images/wire-frames/wire-frame-3.png)
+![Contact Page](assets/images/wire-frames/wire-frame-3.PNG)
 
-![Portfolio Page](assets/images/wire-frames/wire-frame-4.png)
+![Portfolio Page](assets/images/wire-frames/wire-frame-4.PNG)
 
 ### Features
 
