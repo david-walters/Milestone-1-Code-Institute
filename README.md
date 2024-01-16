@@ -128,7 +128,7 @@ Wireframes were created using Figma.
 
 ![Contact Page](assets/images/wire-frames/wire-frame-3.PNG)
 
-![Portfolio Page](assets/images/wire-frames/wire-frame-4.PNG)
+![Portfolio Page](assets/images/wire-frames/wire-frame-4.png)
 
 ### Features
 
